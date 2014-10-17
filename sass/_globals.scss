@@ -53,7 +53,8 @@
 		}
 
 		.label {
-			border-bottom: 1px solid;
+			position: absolute;
+			left: -9999em;
 		}
 
 		a {
