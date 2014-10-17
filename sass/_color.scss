@@ -1,0 +1,20 @@
+$red: rgb(255,105,97);
+$blue: rgb(119,158,203);
+$green: rgb(119,221,119);
+$neutral: rgb(174,198,207);
+$charcoal: #444;
+
+body {
+	color: $charcoal;
+}
+
+a {
+	color: $blue;
+	border-bottom: 1px solid;
+	text-decoration: none;
+
+	&:hover,
+	&:focus {
+		border-color: transparent;
+	}
+}

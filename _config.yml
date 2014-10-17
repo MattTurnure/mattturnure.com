@@ -1,0 +1,5 @@
+name: Matt Turnure
+markdown: redcarpet
+pygments: true
+permalink: /:year/:title/
+exclude: [.gitignore, bower.json, config.rb, bower_components, node_modules, sass, Gruntfile.js, package.json]

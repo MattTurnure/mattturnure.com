@@ -1,0 +1,71 @@
+.branding {
+	@include set-type(24, 24);
+
+	@media screen and (min-width: $breakpoint-one) {
+		@include set-type(36, 48);
+	}
+}
+
+.header-main {
+	border-bottom: 2px solid $neutral;
+}
+
+.nav-main {
+	position: absolute;
+	bottom: 0;
+	right: 16px;
+
+	@media screen and (min-width: $breakpoint-one) {
+		bottom: 8px;
+	}
+
+	ul {
+		@extend %menu;
+		@include set-type(24, 24);
+	}
+}
+
+.content-main {
+	@media screen and (min-width: $breakpoint-one) {
+		
+	}
+}
+
+.footer-main {
+	border-top: 2px solid $neutral;
+
+	.vcard {
+		@include set-type(14, 24);
+		text-align: center;
+
+		.fn {
+			@include set-type(18, 24);
+		}
+	}
+
+	.social {
+		@extend %menu;
+
+		.ico {
+			@include set-type(24, 24);
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		.label {
+			border-bottom: 1px solid;
+		}
+
+		a {
+			border: 0;
+
+			&:hover,
+			&:focus {
+				.label {
+					border-color: transparent;
+				}
+			}
+		}
+
+	}
+}

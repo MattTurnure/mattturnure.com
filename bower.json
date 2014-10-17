@@ -1,0 +1,26 @@
+{
+  "name": "mattturnure.com",
+  "version": "0.0.1",
+  "authors": [
+    "Mathmatticus <mathmatticus@gmail.com>"
+  ],
+  "description": "Website for Matt Turnure",
+  "keywords": [
+    "blog",
+    "jekyll"
+  ],
+  "license": "MIT",
+  "homepage": "http://mattturnure.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.2",
+    "normalize.scss": "~3.0.1+normalize.3.0.1"
+  }
+}

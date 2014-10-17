@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+	<header class="header-main">
+		<div class="group">
+			{% if {{page.url}} == '/index.html' %}
+	        	<h1 class="branding">{{ site.name }}</h1>
+	        {% else %}
+	        	<h4 class="branding"><a href="/">{{ site.name }}</a></h4>
+	        {% endif %}
+
+	        <nav class="nav-main" id="nav-main">
+		        <ul>
+		            <li>
+		                <a href="/work/">work</a>
+		            </li>
+		        </ul>
+		    </nav>
+		</div>
+	</header>

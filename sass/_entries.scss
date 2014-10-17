@@ -1,0 +1,22 @@
+.entries {
+	@extend %scrub-list;
+
+	.entry-title {
+		@include set-type(36, 48);
+		margin-bottom: 0;
+	}
+}
+
+.entry-title {
+	margin-bottom: 0;
+
+	a {
+		border: 0;
+	}
+}
+
+.entry-date {
+	@include set-type(14, 24);
+	display: block;
+	margin: 0;
+}
