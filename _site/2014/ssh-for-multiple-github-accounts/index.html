@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>SSH for Multiple GitHub Accounts | Matt Turnure</title>
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+	<header class="header-main">
+		<div class="group">
+			
+	        	<h4 class="branding"><a href="/">Matt Turnure</a></h4>
+	        
+
+	        <nav class="nav-main" id="nav-main">
+		        <ul>
+		            <li>
+		                <a href="/work/">work</a>
+		            </li>
+		        </ul>
+		    </nav>
+		</div>
+	</header>
+
+<section class="content-main" id="content-main">
+	<div class="group">
+		<h1 class="entry-title">SSH for Multiple GitHub Accounts</h1>
+		<span class="entry-date">28 Oct 2014</span>
+
+		<article class="entry">
+			<p>Recently, I needed to create another GitHub account and realized that I needed to set up SSH permissions. After much trial and error, I ended up on a <a href="http://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574">Jeffrey Way tutorial</a>.</p>
+
+<p>I mean, who doesn&#8217;t love <a href="http://jeffrey-way.com/">Jeffrey Way</a>?</p>
+
+<p>Anyhow, everything worked for me, but I was getting this error: <code>Bad owner or permissions</code>. That was easily fixed with this command: <code>chmod 644 config</code>.</p>
+
+<p>Now I am up and running with no issues.</p>
+
+		</article>
+	</div>
+</section>
+
+    <footer class="footer-main">
+        <div class="group">
+            <div class="vcard">
+                <span class="fn">Matt Turnure</span>
+                <div class="adr">
+                    <div class="street-address">
+                        701 Market St.<br>
+                        Suite 1350
+                    </div>
+                    <span class="locality">Chattanooga</span>, <span class="region">TN</span> <span class="postal-code">37402</span>
+                </div>
+            </div>
+            <ul class="social">
+                <li>
+                    <a href="https://github.com/MattTurnure">
+                        <i class="icon-github ico"></i>
+                        <span class="label">github.com/MattTurnure</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.linkedin.com/in/mattturnure">
+                        <i class="icon-linkedin ico"></i>
+                        <span class="label">linkedin.com/in/mattturnure</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/MattTurnure">
+                        <i class="icon-twitter ico"></i>
+                        <span class="label">twitter.com/MattTurnure</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
